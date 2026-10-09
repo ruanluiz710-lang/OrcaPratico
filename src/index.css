@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  background: #f8fafc;
+  color: #0f172a;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input,
+select,
+textarea {
+  font-size: 16px; /* evita zoom automático no iOS */
+}
